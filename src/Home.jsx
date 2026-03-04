@@ -101,7 +101,6 @@ export default function Home() {
         const products = await api.getProducts();
         setItems(products);
 
-        // Confirma o id do GMA D'or no banco — fallback para o ID hardcodado se não encontrar
         const gmaDor = products.find((p) => p._id === GMA_DOR_ID || p.id === GMA_DOR_ID);
         if (gmaDor) setGmaDorId(gmaDor.id);
       } catch (err) {
