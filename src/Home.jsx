@@ -61,7 +61,7 @@ export default function Home() {
 
   const ordersByTab = {
     confirmed: [
-      { id: "S1-29384756", title: "Chuteira Campo",    size: "41", qty: 1, img: "" },
+      { id: "S1-29384756", title: "Chuteira de Campo Pro",    size: "41", qty: 1, img: "" },
       { id: "S1-11839201", title: "Meião GMA",         size: "U",  qty: 2, img: "" },
     ],
     preparing: [
