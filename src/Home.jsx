@@ -26,7 +26,6 @@ import discount       from "./assets/discount.svg";
 import energy       from "./assets/energy.svg";
 import handBox        from "./assets/hand_box.svg";
 
-// ID fixo do produto GMA D'or no MongoDB Atlas — nunca muda
 const GMA_DOR_ID = "69a812fffbca10dbb6964307";
 
 export default function Home() {
